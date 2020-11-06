@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='strm.xml' b:templateVersion='1.0.0' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
+new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
+&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-PD2MMXG&#39;);</script>
+<!-- End Google Tag Manager -->
+
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title><data:view.title.escaped/></title>
     <b:include data='blog' name='all-head-content'/>
@@ -2842,6 +2851,11 @@ margin-left:40px
   </head>
 
   <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-PD2MMXG' style='display:none;visibility:hidden' width='0'/></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <b:class cond='data:view.isPreview' name='preview'/>
     <b:class cond='data:view.isSingleItem' name='item-view'/>
     <b:class cond='data:view.isArchive' name='archive-view'/>
@@ -3001,7 +3015,7 @@ margin-left:40px
                   <b:comment>Nav primarily intended for sections that consist of major navigation blocks.</b:comment>
                   <nav role='navigation'>
                     <b:section class='clearboth' id='page_list_top' name='Page List (Top)' showaddelement='false'>
-                      <b:widget cond='!data:view.isPost' id='PageList1' locked='true' title='' type='PageList' visible='true'>
+                      <b:widget id='PageList1' locked='true' title='' type='PageList' visible='true'>
                         <b:widget-settings>
                           <b:widget-setting name='pageListJson'><![CDATA[{'4975202367595731451': {'href': 'http://www.koshigaya.info/p/about.html', 'title': '越谷市について', 'position': 0}, '6048768117047530503': {'href': 'http://www.koshigaya.info/p/calendar.html', 'title': 'カレンダー', 'position': 1}, '4564593811714740181': {'href': 'http://www.koshigaya.info/p/access.html', 'title': 'アクセス', 'position': 2}, '7862140073097876927': {'href': 'http://www.koshigaya.info/p/map.html', 'title': '越谷マップ', 'position': 3}, '5023467937395548008': {'href': 'http://blog.koshigaya.city/p/facilities.html', 'title': '施設案内', 'position': 4}, '3184447806997015760': {'href': 'http://www.koshigaya.city/p/ichigo.html', 'title': 'イチゴ狩り', 'position': 5}, '334303919142844333': {'href': 'http://www.koshigaya.city/p/official.html', 'title': '公式ホームページ', 'position': 6}, '9106280655522110948': {'href': 'http://www.koshigaya.city/p/book.html', 'title': '書籍', 'position': 7}, '2790631469315943997': {'href': 'https://www.koshigaya.city/p/novel.html', 'title': '越谷”素”小説', 'position': 8}}]]></b:widget-setting>
                           <b:widget-setting name='homeTitle'>ホーム</b:widget-setting>
@@ -3133,7 +3147,7 @@ margin-left:40px
                   </div>
                 </b:if>
                 <b:section class='main' id='page_body' name='Page Body' showaddelement='false'>
-                  <b:widget cond='data:view.isHomepage' id='FeaturedPost1' locked='true' title='注目の投稿' type='FeaturedPost' visible='true'>
+                  <b:widget id='FeaturedPost1' locked='true' title='注目の投稿' type='FeaturedPost' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='showSnippet'>true</b:widget-setting>
                       <b:widget-setting name='showPostTitle'>true</b:widget-setting>
@@ -4153,7 +4167,7 @@ margin-left:40px
         </b:widget>
         <b:widget id='HTML2' locked='false' title='Twitter' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<a href="https://twitter.com/koshigaya_city?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @koshigaya_city</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<a href="https://twitter.com/koshigaya_city?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @koshigaya_city</a><script async="async" src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <b:include name='widget-title'/>
